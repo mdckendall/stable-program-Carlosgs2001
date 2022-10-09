@@ -11,8 +11,8 @@ public void addHorse(Horse horsesa){
   horses.add(horsesa);
 }
 int x = 1;
-public void printArr()
-for(int i=0;i<horses.size();i++){
+public void printArr(){
+for(int i=0;i < horses.size();i++){
   
    System.out.println("Name: " + horses.get(i).name);
   System.out.println(" Weight: " + horses.get(i).weight);
